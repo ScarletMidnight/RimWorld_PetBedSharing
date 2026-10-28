@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="Bed">
+    <defName>MLAP_PetBed</defName>
+
+    <!-- Important: Rare ticker so our bed comp ticks -->
+    <tickerType>Rare</tickerType>
+
+    <label>Pet bed</label>
+    <description>A specially marked bed meant for adopted pets. Only colony pets are allowed to sleep here.</description>
+
+    <graphicData>
+      <texPath>Things/Building/Furniture/MLAP_PetBed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+
+    <size>(1,2)</size>
+
+    <!-- Stuff + cost -->
+    <stuffCategories Inherit="False">
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+
+    <!-- Stats -->
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>18</Mass>
+      <MarketValue>80</MarketValue>
+    </statBases>
+
+    <building>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+    </building>
+
+    <!-- IMPORTANT: keep Bed's default comps, then add ours -->
+    <comps Inherit="True">
+
+      <!-- Motivation buff + mood memory after sleeping -->
+      <li Class="MoreLikeAPet.CompProperties_MLAP_PetBedMotivation">
+        <hediffDefName>MLAP_PetBedMotivation</hediffDefName>
+        <requiredPreceptDefName>MLAP_PetsMustWearCollars</requiredPreceptDefName>
+        <thoughtDefName>MLAP_SleptInPetBed</thoughtDefName>
+        <applyOnEnter>false</applyOnEnter>
+      </li>
+
+      <!-- Temperament picker (prefix-based): will list any TraitDef whose defName starts with MLAP_Temperament_ -->
+      <li Class="MoreLikeAPet.CompProperties_MLAP_PetBedTraining">
+        <requiredPreceptDefName>MLAP_PetsMustWearCollars</requiredPreceptDefName>
+        <temperamentPrefix>MLAP_Temperament_</temperamentPrefix>
+        <enforceSingleTemperament>true</enforceSingleTemperament>
+      </li>
+
+    </comps>
+
+    <uiOrder>2350</uiOrder>
+  </ThingDef>
+
+</Defs>

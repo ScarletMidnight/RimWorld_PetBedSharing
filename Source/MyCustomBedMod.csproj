@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>MyCustomBedMod</AssemblyName>
+    <RootNamespace>MyCustomBedMod</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\Assemblies\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- RimWorld Base Assemblies -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>/home/deck/Desktop/Master/Source/Libs/</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/home/deck/Desktop/Master/Source/Libs/</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- Harmony -->
+    <Reference Include="0Harmony">
+      <HintPath>/home/deck/Desktop/Master/Source/Libs/</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- RJW Petification -->
+    <Reference Include="Petification">
+      <HintPath>/home/deck/Desktop/Master/Source/Libs/</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

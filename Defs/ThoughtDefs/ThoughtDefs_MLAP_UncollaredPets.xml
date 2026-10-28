@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Colonist reaction -->
+  <ThoughtDef>
+    <defName>MLAP_UncollaredPet_Colonist</defName>
+    <label>Uncollared pet</label>
+
+    <!-- Situational, not memory -->
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>MoreLikeAPet.ThoughtWorker_UncollaredPet_Colonist</workerClass>
+
+    <stages>
+      <li>
+        <label>Uncollared pet</label>
+        <description>One of our pets isn't wearing a collar. What if they get lost?</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Slave reaction -->
+  <ThoughtDef>
+    <defName>MLAP_UncollaredPet_Slave</defName>
+    <label>No collar</label>
+
+    <!-- Also situational -->
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>MoreLikeAPet.ThoughtWorker_UncollaredPet_Slave</workerClass>
+
+    <stages>
+      <li>
+        <label>No collar</label>
+        <description>I feel anxious without my collar. A good pet should always be collared.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+    <!-- Overall feeling about having pet-slaves in the colony -->
+  <ThoughtDef>
+    <defName>MLAP_PetSlavery_Colonist</defName>
+    <label>Pets in the colony</label>
+
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>MoreLikeAPet.ThoughtWorker_PetSlavery_Colonist</workerClass>
+
+    <stages>
+      <!-- Stage 0: No slaves at all (they miss having pets) -->
+      <li>
+        <label>No pets</label>
+        <description>There are no pets in the colony. It feels empty without them.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+
+      <!-- Stage 1: Has slaves, but not especially well cared for -->
+      <li>
+        <label>Has pets</label>
+        <description>We have pets in the colony. It's comforting having them around.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+
+      <!-- Stage 2: Has slaves, and at least one is clearly well cared for -->
+      <li>
+        <label>Well-cared-for pets</label>
+        <description>Our pets are well treated and content. It feels right to care for them properly.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- Slave gets a positive buff when well cared for -->
+  <ThoughtDef>
+    <defName>MLAP_WellCaredForPet_Slave</defName>
+    <label>kind owners</label>
+
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>MoreLikeAPet.ThoughtWorker_WellCaredForPet_Slave</workerClass>
+
+    <stages>
+      <li>
+        <label>A good pet's life</label>
+        <description>My place is simple, my needs are met, and my owners are kind. What more could a pet want?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
+

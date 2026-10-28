@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Prevent random world-gen / pawn-gen from getting these.
+       They’re intended to be granted via pet-bed gizmo. -->
+  <TraitDef>
+    <defName>MLAP_Temperament_GoldenRetriever</defName>
+    <label>Golden Retriever</label>
+    <description>Warm, lovable, and soothing to be around. Somehow, they always look a little more charming when they’re happy.</description>
+    <commonality>0</commonality>
+
+    <degreeDatas>
+      <li>
+        <label>Golden Retriever</label>
+        <description>Warm, lovable, and soothing to be around.</description>
+        <statOffsets>
+          <Beauty>1</Beauty>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>MLAP_Temperament_BorderCollie</defName>
+    <label>Border Collie</label>
+    <description>Intensely focused and eager to work. Learns fast and thrives on routine</description>
+    <commonality>0</commonality>
+
+    <degreeDatas>
+      <li>
+        <label>Border Collie</label>
+        <description>Focused, driven, and sharp.</description>
+        <statOffsets>
+          <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+          <GlobalLearningFactor>0.50</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>MLAP_Temperament_GermanShepherd</defName>
+    <label>German Shepherd</label>
+    <description>Loyal and protective. Hits harder up close and shrugs off punishment better than most.</description>
+    <commonality>0</commonality>
+
+    <degreeDatas>
+      <li>
+        <label>German Shepherd</label>
+        <description>Loyal and protective.</description>
+        <statOffsets>
+          <MeleeHitChance>4</MeleeHitChance>
+          <IncomingDamageFactor>-0.3</IncomingDamageFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>MLAP_Temperament_GermanShorthairedPointer</defName>
+    <label>German Shorthaired Pointer</label>
+    <description>Alert, quick, and precise. Moves fast and shoots straighter.</description>
+    <commonality>0</commonality>
+
+    <degreeDatas>
+      <li>
+        <label>German Shorthaired Pointer</label>
+        <description>Alert, quick, and precise.</description>
+        <statOffsets>
+          <ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
+          <MoveSpeed>0.25</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

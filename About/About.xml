@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+  <name>Slave Pet Bed Thoughts</name>
+  <author>ScarletMidnight</author>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>ScarletMidnight.slavepetbedthoughts</packageId>
+  <description>Replaces the negative bed-sharing debuff between masters and specialized slaves (doggy, kitty, cow, doll, and pony hediffs) with custom, dedicated positive mood thoughts for both Master and slave.
+  Dependencies: Petification, Harmony</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFileUrl/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>castle.petification</packageId>
+      <displayName>RJW Petification</displayName>
+      <downloadUrl>https://rjw.miraheze.org/wiki/Petification</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>rjw.petification</li>
+  </loadAfter>
+</ModMetaData>

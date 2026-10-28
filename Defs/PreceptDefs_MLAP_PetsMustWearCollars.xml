@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PreceptDef MayRequire="Ludeon.RimWorld.Ideology">
+    <defName>MLAP_PetsMustWearCollars</defName>
+
+    <!-- Put it under the Slavery issue -->
+    <issue>Slavery</issue>
+
+    <!-- Simple base precept class -->
+    <preceptClass>Precept</preceptClass>
+
+    <label>More like pets</label>
+
+    <impact>High</impact>
+
+    <description>Slaves are treated as pets and expected to be cared for as such.
+
+• Colonists gain mood when adopting a new pet/Pets gain mood when adopted.
+• Colonists dislike uncollared pets, and having no pets.
+• Pets dislike being uncollared.
+• Well-cared-for pets improve colony morale.
+• Pets feel safer and happier when properly cared for.</description>
+
+    <!-- How visible / common it is -->
+    <selectionWeight>0.1</selectionWeight>
+    <displayOrderInIssue>85</displayOrderInIssue>
+
+    <comps>
+      <!-- Colonists caring about uncollared pets -->
+      <li Class="PreceptComp_SituationalThought">
+        <thought>MLAP_UncollaredPet_Colonist</thought>
+      </li>
+
+      <!-- Slaves feeling anxious without collars -->
+      <li Class="PreceptComp_SituationalThought">
+        <thought>MLAP_UncollaredPet_Slave</thought>
+      </li>
+
+      <!-- Colonists feeling good about having (and caring for) pet-slaves -->
+      <li Class="PreceptComp_SituationalThought">
+        <thought>MLAP_PetSlavery_Colonist</thought>
+      </li>
+
+      <!-- Slaves feeling good when well cared for -->
+      <li Class="PreceptComp_SituationalThought">
+        <thought>MLAP_WellCaredForPet_Slave</thought>
+      </li>
+    </comps>
+  </PreceptDef>
+
+</Defs>
+
+
+

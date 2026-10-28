@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== SLAVE MEMORY THOUGHTS ==================== -->
+
+  <ThoughtDef>
+    <defName>PetDoggy_SharedBed_Slave</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with Master</label>
+        <description>I got to curl up right next to my master all night! Keeping them safe, warm, and happy is the best job in the whole world. I’m such a good dog!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetKitty_SharedBed_Slave</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with Master</label>
+        <description>Master let me curl up right against them all night. It was so warm and comfortable—I couldn't stop purring. I love being master's little kitty.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetCow_SharedBed_Slave</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with Master</label>
+        <description>I pressed close to keep master cozy, letting them rest against my heavy warmth. Knowing I provided comfort to my master makes my docile heart swell with happiness.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetDoll_SharedBed_Slave</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with Master</label>
+        <description>Master kept me by their side all night, using me however they pleased until they fell asleep. My mind is blank and empty, existing only to be a peaceful, compliant doll for my master.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetPony_SharedBed_Slave</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with Master</label>
+        <description>Master took the bit from my mouth and pulled me close for the night. My limbs were so heavy from a full day of productive work, and sleeping at master's side made all the fatigue melt away.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+  <!-- ==================== MASTER MEMORY THOUGHTS ==================== -->
+
+  <ThoughtDef>
+    <defName>PetDoggy_SharedBed_Master</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with Pet</label>
+        <description>I let my obedient pet doggy sleep right next to me. Giving them a few gentle pats while they drifted off made the night feel so peaceful.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetKitty_SharedBed_Master</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with pet</label>
+        <description>My sweet pet kitty curled right up against me and purred all night. The soft, rhythmic warmth made it exceptionally easy to relax and get a deep, restful sleep.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetCow_SharedBed_Master</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with pet</label>
+        <description>Resting on my cows pillowy breasts and listening to the steady rythm of there breathing lead to a peacful and deep sleep.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetDoll_SharedBed_Master</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with pet</label>
+        <description>It was delightful pulling my pet doll close and keeping them arranged at my side while I slept. They provided total warmth and comfort without a single complaint or movement.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PetPony_SharedBed_Master</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1.1</durationDays>
+    <stackLimit>1</stackLimit>
+    <validWhileDespawned>false</validWhileDespawned>
+    <stages>
+      <li>
+        <label>shared bed with pet</label>
+        <description>I removed my pony's bit and pulled them in close for the night. Their steady, deep breathing after a long day of productive work was exceptionally soothing to wake up to."</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

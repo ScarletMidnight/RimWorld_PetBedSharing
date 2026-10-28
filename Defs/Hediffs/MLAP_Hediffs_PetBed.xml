@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <HediffDef>
+    <defName>MLAP_PetBedMotivation</defName>
+    <label>Pampered pet</label>
+    <description>I feel motivated after sleeping in my special bed!</description>
+
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <tendable>false</tendable>
+
+    <comps>
+      <!-- 20,000 ticks = 8 hours -->
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>20000</disappearsAfterTicks>
+      </li>
+    </comps>
+
+    <stages>
+      <li>
+        <statOffsets>
+          <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

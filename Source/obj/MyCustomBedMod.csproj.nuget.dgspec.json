@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/MyCustomBedMod.csproj": {}
+  },
+  "projects": {
+    "/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/MyCustomBedMod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/MyCustomBedMod.csproj",
+        "projectName": "MyCustomBedMod",
+        "projectPath": "/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/MyCustomBedMod.csproj",
+        "packagesPath": "/home/deck/.nuget/packages/",
+        "outputPath": "/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/deck/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/deck/.dotnet/sdk/8.0.425/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
