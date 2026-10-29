@@ -1,0 +1,6 @@
+/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/obj/release/MyCustomBedMod.csproj.AssemblyReference.cache
+/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/obj/release/MyCustomBedMod.GeneratedMSBuildEditorConfig.editorconfig
+/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/obj/release/MyCustomBedMod.AssemblyInfoInputs.cache
+/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/obj/release/MyCustomBedMod.AssemblyInfo.cs
+/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/obj/release/MyCustomBedMod.csproj.CoreCompileInputs.cache
+/home/deck/.local/share/Steam/steamapps/common/RimWorld/Mods/Master/Source/obj/release/MyCustomBedMod.sourcelink.json
