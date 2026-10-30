@@ -17,7 +17,6 @@ namespace MyCustomBedMod
             {
                 if (partner == actor) continue;
 
-                // Case 1: Master waking up next to Pet Slave
                 if (actor.IsFreeColonist && partner.IsSlave && IsPetSlave(partner))
                 {
                     PurgeBedSharingMemories(actor);
@@ -30,7 +29,6 @@ namespace MyCustomBedMod
                     return;
                 }
 
-                // Case 2: Pet Slave waking up next to Master
                 if (actor.IsSlave && IsPetSlave(actor) && partner.IsFreeColonist)
                 {
                     PurgeBedSharingMemories(actor);

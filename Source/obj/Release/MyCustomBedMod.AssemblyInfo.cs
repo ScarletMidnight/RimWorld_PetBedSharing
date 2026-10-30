@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyCustomBedMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d36d56ec2ec2da28a503cf7948c13cc9d354443f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f41bc4a2e03b25c515c4d3af6f7eeaa6a956b0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyCustomBedMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyCustomBedMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

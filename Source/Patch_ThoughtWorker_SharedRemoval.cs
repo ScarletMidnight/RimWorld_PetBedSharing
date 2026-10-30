@@ -4,7 +4,6 @@ using Verse;
 
 namespace MyCustomBedMod
 {
-    // Suppresses the situational "Sharing bed" debuff specifically for Master and Pet Slave bed partners
     [HarmonyPatch(typeof(ThoughtWorker_SharedBed), "CurrentStateInternal")]
     public static class Patch_ThoughtWorker_SharedRemoval
     {

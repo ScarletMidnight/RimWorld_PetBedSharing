@@ -25,7 +25,6 @@ namespace ScarletMidnight.slavepetbedthoughts
                     continue;
                 }
 
-                // Gather all alive, spawned slaves on this map
                 List<Pawn> slaves = map.mapPawns?.SlavesOfColonySpawned;
                 if (slaves == null)
                 {
@@ -47,7 +46,6 @@ namespace ScarletMidnight.slavepetbedthoughts
                     }
                 }
 
-                // If there are slaves without ANY bed on this map, trigger the alert
                 if (unassignedSlaves.Count > 0)
                 {
                     List<GlobalTargetInfo> culprits = unassignedSlaves.Select(p => new GlobalTargetInfo(p)).ToList();
@@ -56,7 +54,6 @@ namespace ScarletMidnight.slavepetbedthoughts
                 }
             }
 
-            // All slaves have a bed assigned (even if set to Colonist use)!
             __result = AlertReport.Inactive;
             return false; // Skip vanilla logic
         }

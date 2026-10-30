@@ -11,6 +11,11 @@
   Dependencies: Petification, Harmony</description>
   <modDependencies>
     <li>
+      <packageId>ADLTPG.morelikeapet</packageId>
+      <displayName>More like a pet</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3621380595</steamWorkshopUrl>
+    </li>
+    <li>
       <packageId>brrainz.harmony</packageId>
       <displayName>Harmony</displayName>
       <steamWorkshopUrl>steam://url/CommunityFileUrl/2009463077</steamWorkshopUrl>
@@ -23,6 +28,7 @@
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
-    <li>rjw.petification</li>
+    <li>castle.petification</li>
+    <li>ADLTPG.morelikeapet</li>
   </loadAfter>
 </ModMetaData>

@@ -18,6 +18,10 @@
       <HintPath>/home/deck/Desktop/Master/Source/Libs/</HintPath>
       <Private>false</Private>
     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/home/deck/Desktop/Master/Source/Libs/</HintPath>
+      <Private>false</Private>
+    </Reference>
 
     <!-- Harmony -->
     <Reference Include="0Harmony">
